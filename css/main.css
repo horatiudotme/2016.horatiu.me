@@ -16,12 +16,10 @@ a {
 
 p {
     font-size: 1.5rem;
-    font-weight: 200;
-    font-weight: 300;
     line-height: 1.75;
     letter-spacing: -0.02rem;
 }
 
 .container {
-    padding: 1rem;
+    padding: 2rem;
 }
