@@ -1,0 +1,10 @@
+---
+title : AddictiveTips about ISeePass
+app   : ISeePass
+by    : AddictiveTips
+link  : http://www.addictivetips.com/web/show-and-hide-passwords-in-your-browser-with-the-iseepass-bookmarklet/
+date  : 2014-05-23
+words : [bingo, handy]
+---
+
+"Now to reveal the password, click ISeePass and bingo! ... All in all, a really handy solution to expose password boxes whenever you need to type long passwords without typing errors."

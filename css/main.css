@@ -1,25 +1,159 @@
-body {
-    background: #000;
-    color: #fff;
-    font-family: 'Inconsolata', Consolas,monaco,monospace;
-    font-size: 16px;
-    font-size: 1rem;
-    line-height: 1.5;
+* {
+  color: #636366;
 }
 
 a {
-    color: #fff;
-    border-bottom: 1px dotted #fff;
-    text-decoration: none;
-
+  text-decoration: none;
+  transition: all 0.3s ease;
 }
 
-p {
-    font-size: 1.5rem;
-    line-height: 1.75;
-    letter-spacing: -0.02rem;
+a:hover {
+    border-bottom: 1px dotted #636366;
+}
+
+blockquote {
+    margin: 0;
+}
+
+button {
+  height: 48px;
+  width: 180px;
+  text-align: center;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 200;
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  margin: 20px 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+button:hover {
+    background: #fff;
+    color: #636366;
+}
+
+button:active {
+  outline: none;
+}
+
+
+
+.jumbotron {
+    background: #000;
+    height: 760px;
+}
+
+.jumbotron h1, .jumbotron h2 {
+    color: #fff;
 }
 
 .container {
-    padding: 2rem;
+    padding-top: 6.25rem;
 }
+
+.section-title {
+    margin: 4.5rem 0 3rem 0;
+}
+
+
+.entry {
+    margin-bottom: 4.5em;
+/*    border-bottom: 1px solid #eee;
+    padding-bottom: 2rem; */
+}
+
+.entry:last-of-type {
+    margin-bottom: 0;
+}
+
+.entry-title {
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+}
+
+.entry-date {
+    color: #D6D6D8;
+    font-size: 0.875rem;
+}
+
+.wordlist {
+    font-size: 1.125rem;
+    font-weight: 200;
+    line-height: 1.8;
+    padding: 0;
+}
+
+.wordlist li {
+    display: inline;
+}
+
+/* -------------------------
+ * Footer
+ * -------------------------*/
+
+footer {
+    background: #000;
+    margin-top: 6.25rem;
+    padding-bottom: 5rem;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer p {
+    color: #fff;
+}
+
+/* -------------------------
+ * Media Queries
+ * -------------------------*/
+
+@media only screen and (min-width: 720px) {
+    .jumbotron {
+        height: 600px;
+    }
+}
+
+/*html {
+    background: #1badea;
+    color: rgba(255, 255, 255, 0.9);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+p {
+    margin: 0 0 1em 0;
+}
+
+a {
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+}
+
+blockquote {
+    font-size: 2em;
+    font-weight: 300;
+    margin: 0;
+}
+
+blockquote p:last-child {
+    margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+
+
+.entry-date {
+    font-size: 0.75em;
+    font-weight: 100;
+}*/

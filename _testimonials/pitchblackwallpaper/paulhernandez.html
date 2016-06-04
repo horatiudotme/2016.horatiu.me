@@ -1,0 +1,10 @@
+---
+title : Paul Hernandez about Pitch Black Wallpaper
+app   : Pitch Black Wallpaper
+by    : Paul Hernandez
+link  :
+date  : 2016-02-20
+words : [baby]
+---
+
+"Pitch black baby... This wallpaper makes my icons really pop out on my Galaxy Core prime. ..5 baby! !"
