@@ -1,0 +1,27 @@
+body {
+    background: #000;
+    color: #fff;
+    font-family: 'Inconsolata', Consolas,monaco,monospace;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+a {
+    color: #fff;
+    border-bottom: 1px dotted #fff;
+    text-decoration: none;
+
+}
+
+p {
+    font-size: 1.5rem;
+    font-weight: 200;
+    font-weight: 300;
+    line-height: 1.75;
+    letter-spacing: -0.02rem;
+}
+
+.container {
+    padding: 1rem;
+}
