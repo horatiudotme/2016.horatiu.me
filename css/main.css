@@ -47,6 +47,8 @@ header {
 }
 
 .jumbotron {
+    background-attachment: fixed;
+    background-color: #000;
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("../img/hero.jpg");
     height: 760px;
     display: table-cell;
@@ -118,6 +120,11 @@ footer a {
 
 footer p {
     color: #fff;
+}
+
+.name {
+    color: #fff;
+    font-family: sans-serif;
 }
 
 /* -------------------------
