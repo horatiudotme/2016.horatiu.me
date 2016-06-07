@@ -41,10 +41,20 @@ button:active {
 }
 
 
+header {
+    display: table;
+    width: 100%;
+}
 
 .jumbotron {
-    background: #000;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("../img/hero.jpg");
     height: 760px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.jumbotron .container {
+    padding-top: 0;
 }
 
 .jumbotron h1, .jumbotron h2 {
@@ -61,7 +71,7 @@ button:active {
 
 
 .entry {
-    margin-bottom: 4.5em;
+    margin-bottom: 3em;
 /*    border-bottom: 1px solid #eee;
     padding-bottom: 2rem; */
 }
@@ -99,6 +109,7 @@ footer {
     background: #000;
     margin-top: 6.25rem;
     padding-bottom: 5rem;
+    text-align: center;
 }
 
 footer a {
@@ -118,42 +129,3 @@ footer p {
         height: 600px;
     }
 }
-
-/*html {
-    background: #1badea;
-    color: rgba(255, 255, 255, 0.9);
-    font-family: 'Roboto', sans-serif;
-    font-size: 1em;
-    line-height: 1.4;
-}
-
-p {
-    margin: 0 0 1em 0;
-}
-
-a {
-  color: rgba(255, 255, 255, 0.9);
-  text-decoration: none;
-}
-
-blockquote {
-    font-size: 2em;
-    font-weight: 300;
-    margin: 0;
-}
-
-blockquote p:last-child {
-    margin: 0;
-}
-
-.container {
-  margin: 0 auto;
-  max-width: 600px;
-}
-
-
-
-.entry-date {
-    font-size: 0.75em;
-    font-weight: 100;
-}*/
