@@ -3,12 +3,17 @@
 }
 
 a {
-  text-decoration: none;
-  transition: all 0.3s ease;
+    text-decoration: none;
 }
 
-a:hover {
-    border-bottom: 1px dotted #636366;
+
+
+.hme-link {
+    border-bottom: 1px dotted #aaa;
+}
+
+.hme-link:hover {
+    border-bottom: 1px solid #aaa;
 }
 
 blockquote {
@@ -101,6 +106,29 @@ header {
 
 .wordlist li {
     display: inline;
+}
+
+
+
+.hme-third-logos {
+    text-align: center;
+}
+
+.hme-third-logo {
+    filter: grayscale(1);
+    margin: 1rem;
+    max-height: 100px;
+    max-width: 200px;
+    vertical-align: middle;
+}
+
+.hme-third-logo:hover {
+    filter: none;
+}
+
+
+.hme-eod {
+    margin-bottom: 3rem;
 }
 
 /* -------------------------
